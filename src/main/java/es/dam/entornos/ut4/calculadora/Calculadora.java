@@ -8,7 +8,7 @@ public class Calculadora {
         double a,b,res;
         Operacion op = null;
         Scanner sc = new Scanner(System.in);
-        while(opcion != 5) {          
+        while(opcion != 7) {          
             System.out.println("Introduce la operación (1: suma, 2: resta, 3: muliplica, 4: divide");        
             opcion = sc.nextInt();
             
